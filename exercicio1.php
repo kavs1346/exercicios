@@ -17,7 +17,11 @@ if($robson != $pedro){
     echo "Robson é igual a Pedro";
 }
 
-if(12 <= 11 ) {
+    $num1 = 12;
+    $num2 = 11;
+
+
+if($num1 <= $num2 ) {
     echo "Doze não é menor ou igual a onze";
 } else {
     echo "Doze é menor ou igual a onze";
